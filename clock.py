@@ -13,3 +13,6 @@ def focus_timer(duration):
         duration -= 1
 
     print("\n专注时钟结束。")
+# 设定专注时钟持续时间（秒）
+focus_duration = 60 * 24 * 60  # 例如，25分钟
+focus_timer(focus_duration)
